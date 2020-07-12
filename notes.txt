@@ -1,0 +1,4 @@
+
+ESModule import in browser issues with import extensions
+https://github.com/microsoft/TypeScript/issues/33882
+Trick was to add .js to ts imports (weird)

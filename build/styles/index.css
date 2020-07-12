@@ -1,0 +1,58 @@
+
+body {
+  background-color: rgb(45, 57, 56);
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#container {
+  position:absolute;
+  top:0%;
+  left:0%;
+  width:100%;
+  height:100%;
+  display:flex;
+}
+
+.lwce-editor {
+  flex:1;
+  display:flex;
+  flex-direction: column;
+}
+
+.lwce-editor-code-container {
+  flex:12;
+}
+
+.lwce-editor-filebar {
+	flex: 1;
+	color: #b7b7b7;
+	font-size: x-large;
+	background-color: #3f4042;
+	text-align: left;
+	font-family: courier;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.lwce-editor-filebar-item {
+  color: #b7b7b7;
+  background-color: #5d5c5e;
+	font-size: x-large;
+	cursor: pointer;
+	text-align: left;
+	font-family: courier;
+	width: min-content;
+  padding-right: 1em;
+  margin-left:0.25em;
+  float:left;
+  height:100%;
+  border-radius:0.1em;
+}
+
+.lwce-editor-filebar-item .active {
+  background-color: #202020;
+}
